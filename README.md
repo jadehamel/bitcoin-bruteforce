@@ -26,14 +26,15 @@ Bitcoin public address brute force written in Python with simplicity and speed i
 
 ```bash
 $ sudo apt update -y && sudo apt upgrade -y
-$ sudo apt install git -y
+$ sudo apt install git pip -y
 $ git clone https://github.com/meesvw/bitcoin-bruteforce.git
+
 ```
 
 3. Go into the bitcoin-bruteforce folder and install the requirements:
 
 ```bash
-$ pip install -r requirements.txt
+$ pip install bit
 ```
 
 4. Add wallets in the [wallets.txt](wallets.txt) file:
